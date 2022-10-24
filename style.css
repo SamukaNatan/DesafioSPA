@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 4rem 0 4rem 7.2rem;
+    background-size: cover;
+    color: #E1E1E6;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3.2rem;  
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    cursor: pointer;
+    color: #E1E1E6;
+
+}
+
+.colorchange {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    gap: 4.4rem;
+    color: #E1E1E6;
+
+}
+
+.text {
+    align-items: flex-start;
+    width: 60%;
+}
+
+main p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+button {
+    background: transparent;
+    border: 2px solid #E1E1E6;;
+    cursor: pointer;
+    width: 19rem;
+    height: 4.8rem;
+    border-radius: 0.8rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+    color: #E1E1E6;
+
+}
+
+.bg1 {
+    background-image: url(images/back1.png);
+}
+
+.bg2 {
+    background-image: url(images/back2.png);
+}
+
+.bg3 {
+    background-image: url(images/back3.png);
+}
+
